@@ -1,0 +1,28 @@
+Software: Training and testing with ORL face database by Neural Network
+Author: Hy Truong Son
+Major: BSc. Computer Science
+Class: 2013 - 2016
+Institution: Eotvos Lorand University
+Email: sonpascal93@gmail.com
+Website: http://people.inf.elte.hu/hytruongson/
+Final update: October 4th, 2015
+Copyright 2015 (c) Hy Truong Son. All rights reserved. Only use for academic purposes.
+
+Accuracy
+--------
+Training: 320 samples
+Testing: 80 samples
+Accuracy: > 95%
+
+Note
+----
+Users can reorder the file all-samples.dat to change the training and testing sets. Training set contains the first 80% of samples.
+
+Structure
+---------
+~/MyLib/: Contains library
+~/ORL_Face_Database/: Contains the ORL database
+Training_Testing.java: Run both training and testing
+training.java: Training separately
+testing.java: Testing separately
+weights.dat: Contains the weights of the trained neural network

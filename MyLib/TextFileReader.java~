@@ -1,0 +1,22 @@
+package MyLib;
+
+import java.lang.*;
+import java.io.*;
+
+public class TextFileReader {
+	
+	BufferedReader f;
+	
+	public void open(String name) throws IOException {
+		f = new BufferedReader(new FileReader(name));
+	}
+	
+	public String ReadLine() throws IOException {
+		return f.readLine();
+	}
+	
+	public void close() throws IOException {
+		f.close();
+	}
+	
+}
